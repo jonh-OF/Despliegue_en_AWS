@@ -30,12 +30,11 @@ Este proyecto es una pequeña **máquina de despliegue automatizado**, perfecta 
 
 ## 📁 Estructura de archivos
 
-├── main.tf # Define recursos: EC2, S3
-├── provider.tf # Conecta con AWS o LocalStack
-├── variables.tf # Parámetros reutilizables
-├── outputs.tf # Muestra info útil al final
-├── terraform.tfvars # Valores de variables (puede estar en .gitignore)
-└── README.md # Esto que estás leyendo 😎
+-  main.tf # Define recursos: EC2, S3
+-  provider.tf # Conecta con AWS o LocalStack
+-  variables.tf # Parámetros reutilizables
+-  terraform.tfvars # Valores de variables (puede estar en .gitignore)
+-  README.md # Esto que estás leyendo 😎
 
 ---
 
