@@ -30,3 +30,31 @@ Este proyecto es una pequeña **máquina de despliegue automatizado**, perfecta 
 
 ## 📁 Estructura de archivos
 
+├── main.tf # Define recursos: EC2, S3
+├── provider.tf # Conecta con AWS o LocalStack
+├── variables.tf # Parámetros reutilizables
+├── outputs.tf # Muestra info útil al final
+├── terraform.tfvars # Valores de variables (puede estar en .gitignore)
+└── README.md # Esto que estás leyendo 😎
+
+---
+
+## 🛠️ ¿Cómo lo uso?
+
+### 1. 🚧 Requisitos previos
+
+- Terraform instalado → [Instalar Terraform](https://developer.hashicorp.com/terraform/downloads)
+- Cuenta de AWS (o LocalStack funcionando en `localhost:4566`)
+- Credenciales configuradas (`aws configure`)
+
+### 2. 🧪 Inicializa el proyecto
+
+```bash
+terraform init
+terraform plan
+terraform apply
+
+##📝 Créditos
+
+Creado con ❤ y algo de frustración solucionando errores de Terraform.
+Por jonh-OF ¡ahora oficialmente un constructor de nubes!
